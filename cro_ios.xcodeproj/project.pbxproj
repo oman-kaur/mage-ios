@@ -14,6 +14,8 @@
 		B282AD6428794B2100AE2AB3 /* cro_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282AD6328794B2100AE2AB3 /* cro_iosTests.swift */; };
 		B282AD6E28794B2100AE2AB3 /* cro_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282AD6D28794B2100AE2AB3 /* cro_iosUITests.swift */; };
 		B282AD7028794B2100AE2AB3 /* cro_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282AD6F28794B2100AE2AB3 /* cro_iosUITestsLaunchTests.swift */; };
+		B282AD7D28794D7D00AE2AB3 /* .github in Resources */ = {isa = PBXBuildFile; fileRef = B282AD7C28794D7D00AE2AB3 /* .github */; };
+		B282AD7F28794D9200AE2AB3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B282AD7E28794D9200AE2AB3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B282AD6928794B2100AE2AB3 /* cro_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cro_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B282AD6D28794B2100AE2AB3 /* cro_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cro_iosUITests.swift; sourceTree = "<group>"; };
 		B282AD6F28794B2100AE2AB3 /* cro_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cro_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B282AD7C28794D7D00AE2AB3 /* .github */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .github; sourceTree = "<group>"; };
+		B282AD7E28794D9200AE2AB3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 		B282AD4628794B1F00AE2AB3 = {
 			isa = PBXGroup;
 			children = (
+				B282AD7E28794D9200AE2AB3 /* README.md */,
+				B282AD7C28794D7D00AE2AB3 /* .github */,
 				B282AD5128794B1F00AE2AB3 /* cro_ios */,
 				B282AD6228794B2100AE2AB3 /* cro_iosTests */,
 				B282AD6C28794B2100AE2AB3 /* cro_iosUITests */,
@@ -231,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B282AD7D28794D7D00AE2AB3 /* .github in Resources */,
 				B282AD5A28794B2000AE2AB3 /* Preview Assets.xcassets in Resources */,
+				B282AD7F28794D9200AE2AB3 /* README.md in Resources */,
 				B282AD5728794B2000AE2AB3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
